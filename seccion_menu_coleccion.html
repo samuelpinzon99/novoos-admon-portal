@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Administrativo Novoos</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/x-icon" href="assets/images/icons/favicon_novoos_admon.ico">
+
+    <!--DM SANS FONT-->
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!--JQUERY-->
+
+    <script src="http://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous">
+        </script>
+
+    <!--FONTAWESOME CDN-->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--JAVASCRIPT-->
+
+    <script type="text/javascript" src="main.js"></script>
+
+</head>
+
+<body>
+
+    <header class="topbar d-flex align-items-center px-4">
+        <div class="platform-name">
+            <i class="fa-solid fa-bars burger-menu menu_off"></i>
+            <div class="p-name">
+                <i class="fa-solid fa-suitcase"></i>
+                <h1>Portal Administrativo (ORDERTEST)</h1>
+            </div>
+        </div>
+
+        <div class="platform-options">
+            <i class="fa-solid fa-bell"></i>
+            <i class="fa-solid fa-right-from-bracket"></i>
+            <i class="fa-solid fa-user"></i>
+        </div>
+    </header>
+
+    <nav class="menu">
+        <a href="#" class="menu_on">
+            <i class="fa-solid fa-chevron-left"></i>
+        </a>
+        <img src="assets/images/novoos_logo.png" class="img-menu">
+        <hr>
+
+        <ol>
+            <a href="index.html">
+                <li><img src="assets/images/icons/inicio.svg" class="main-menu-icon">
+                    <p class="main-menu-item">Inicio</p>
+                </li>
+            </a>
+
+            <a href="mint.html">
+                <li><img src="assets/images/icons/mint.svg" class="main-menu-icon">
+                    <p class="main-menu-item">Mint</p>
+                </li>
+            </a>
+
+            <li><img src="assets/images/icons/regalos.svg" class="main-menu-icon">
+                <p class="main-menu-item">Regalos</p>
+            </li>
+
+            <a href="beneficiarios.html">
+                <li class="main-menu-subitem"><img src="assets/images/icons/beneficiarios.svg" class="main-menu-icon">
+                    <p class="main-menu-item">Beneficiarios</p>
+                </li>
+            </a>
+            <a>
+                <li class="main-menu-subitem"><img src="assets/images/icons/regalo_NFT.svg" class="main-menu-icon">
+                    <p class="main-menu-item">Regalo NFT</p>
+                </li>
+            </a>
+
+            <li class="main-menu-item-active"><img src="assets/images/icons/beneficios.svg" class="main-menu-icon">
+                <p class="main-menu-item">Beneficios</p>
+            </li>
+
+            <a>
+                <li class="main-menu-subitem main-menu-subitem-active"><img src="assets/images/icons/seccion_menu.svg"
+                        class="main-menu-icon">
+                    <p class="main-menu-item">Sección Menú</p>
+                </li>
+            </a>
+            <a href="seccion_combos.html">
+                <li class="main-menu-subitem"><img src="assets/images/icons/seccion_combos.svg" class="main-menu-icon">
+                    <p class="main-menu-item">Sección Combos</p>
+                </li>
+            </a>
+        </ol>
+
+    </nav>
+
+    <div class="general-container">
+
+        <div class="d-flex" style="max-width:81.25rem;margin-left: auto; margin-right: auto;">
+            <a href="seccion_menu.html"><button class="back_btn"><i class="fa-solid fa-chevron-left"></i></button></a>
+            <h3 class="section-title">Crear Menú - Los Delegados del Fundador</h3>
+        </div>
+
+        <p class="body-font" style="max-width:81.25rem;margin-left: auto; margin-right: auto;">Selecciona una categoría:</p>
+
+        <div class="module-group module-group-margin">
+
+            <div onclick="document.getElementById('modal-add-menu').style.display='block'"
+                class="module general-card fit-width-module">
+                <img class="general-card-img square" src="assets/images/categorias/entradas.png"></img>
+
+                <div class="general-card-text">
+                    <h1 class="general-card-title center isolated-title">Entradas</h1>
+                </div>
+            </div>
+
+            <div class="module general-card fit-width-module">
+                <img class="general-card-img square" src="assets/images/categorias/desayunos.png"></img>
+
+                <div class="general-card-text">
+                    <h1 class="general-card-title center isolated-title">Desayunos</h1>
+                </div>
+            </div>
+
+            <div class="module general-card fit-width-module">
+                <img class="general-card-img square" src="assets/images/categorias/sopas.png"></img>
+
+                <div class="general-card-text">
+                    <h1 class="general-card-title center isolated-title">Sopas</h1>
+                </div>
+            </div>
+
+            <div class="module general-card fit-width-module">
+                <img class="general-card-img square" src="assets/images/categorias/ensaladas.png"></img>
+
+                <div class="general-card-text">
+                    <h1 class="general-card-title center isolated-title">Ensaladas</h1>
+                </div>
+            </div>
+
+            <div class="module general-card fit-width-module">
+                <img class="general-card-img square" src="assets/images/categorias/platos_fuertes.png"></img>
+
+                <div class="general-card-text">
+                    <h1 class="general-card-title center isolated-title">Platos Fuertes</h1>
+                </div>
+            </div>
+
+            <div class="module general-card fit-width-module">
+                <img class="general-card-img square" src="assets/images/categorias/bebidas.png"></img>
+
+                <div class="general-card-text">
+                    <h1 class="general-card-title center isolated-title">Bebidas</h1>
+                </div>
+            </div>
+
+            <div class="module general-card fit-width-module">
+                <img class="general-card-img square" src="assets/images/categorias/postres.png"></img>
+
+                <div class="general-card-text">
+                    <h1 class="general-card-title center isolated-title">Postres</h1>
+                </div>
+            </div>
+
+            <div class="module general-card fit-width-module">
+                <img class="general-card-img square" src="assets/images/categorias/snacks.png"></img>
+
+                <div class="general-card-text">
+                    <h1 class="general-card-title center isolated-title">Snacks</h1>
+                </div>
+            </div>
+
+            <div class="module general-card fit-width-module">
+                <img class="general-card-img square" src="assets/images/categorias/onces.png"></img>
+
+                <div class="general-card-text">
+                    <h1 class="general-card-title center isolated-title">Onces</h1>
+                </div>
+            </div>
+
+            <div class="module general-card fit-width-module">
+                <img class="general-card-img square" src="assets/images/categorias/gourmet.png"></img>
+
+                <div class="general-card-text">
+                    <h1 class="general-card-title center isolated-title">Gourmet</h1>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <div id="modal-add-menu" class="custom-modal">
+
+        <div class="custom-modal-content modal-large">
+            <i onclick="document.getElementById('modal-add-menu').style.display='none'"
+                class="fa-solid fa-xmark close_btn"></i>
+
+            <div class="title_and_subtitle">
+                <h1>Los Delegados del Fundador</h1>
+                <h3>Agregar Combo en <span>Entradas</span></h3>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-4 d-flex align-items-center" style="gap:0.5rem">
+                    <button class="secondary_btn_small">Seleccionar archivo</button>
+
+                    <span class="file-name body-font">archivo.jpg</span>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4"><input type="text" name="url" placeholder="URL del Archivo"></div>
+                <div class="col-12 col-sm-6 col-md-4"><select name="permisos">
+                        <option value="" disabled selected>Estado</option>
+                        <option value="estado_1">Estado 1</option>
+                        <option value="estado_2">Estado 2</option>
+                        <option value="estado_3">Estado 3</option>
+                    </select></div>
+
+                <div class="col-12 col-sm-6 col-md-4"><input type="text" name="nombres" placeholder="Nombres"></div>
+
+                <div class="col-12 col-sm-6 col-md-4"><input type="text" name="descripcion" placeholder="Descripción">
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4"><input type="number" name="precio" placeholder="Precio"></div>
+
+
+            </div>
+
+            <button class="secondary_btn" style="margin-top:2rem; margin-left: auto;
+            margin-right: auto;"><i class="fa-solid fa-plus"></i>Agregar</button>
+
+            <hr>
+
+            <div class="module table-container">
+                <table>
+                    <tr class="table-label">
+                        <th>Nombre</th>
+                        <th>Imagen</th>
+                        <th>Precio</th>
+                        <th>Estado</th>
+                        <th class="table-action">Acciones</th>
+                    </tr>
+    
+                    <tr>
+                        <th>Productos Set #1</th>
+                        <th><img src="assets/images/isometric_environment.png" class="img-table"></th>
+                        <th>$300.000</th>
+                        <th><button class="secondary_btn_small">Activo</button></th>
+                        <th class="table-action"><i class="fa-solid fa-pen"></i></th>
+                    </tr>
+    
+    
+                </table>
+            </div>
+
+            <button onclick="document.getElementById('modal-add-menu').style.display='none'"
+                class="primary_btn">Guardar</button>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
